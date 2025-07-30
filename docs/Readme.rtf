@@ -1,13 +1,5 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww14600\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 Readme\
-\
-The codes are to preprocessing and analysis of EEG and behavioral data recorded from 21 individuals with ASD and 20 TD. The paradigm was design to test entrainment of cortical activity to sequences of stimuli with different regularities, by adding temporal jitter to the intervals between stimuli. This was done by randomly selecting stimulus onset asynchronies (SOAs) from uniform distributions before each sequence presentation, to alter the 666 ms base interval. Jitter was added with increasingly wider bounds: Isochronous (no jitter), Small Jitter (\'b1111 ms), Moderate Jitter (\'b1333 ms), and Large Jitter (\'b1500 ms). \
+The codes are to preprocessing and analysis of EEG and behavioral data recorded from 21 individuals with ASD and 20 TD. The paradigm was design to test entrainment of cortical activity to sequences of stimuli with different regularities, by adding temporal jitter to the intervals between stimuli. This was done by randomly selecting stimulus onset asynchronies (SOAs) from uniform distributions before each sequence presentation, to alter the 666 ms base interval. Jitter was added with increasingly wider bounds: Isochronous (no jitter), Small Jitter (\'+-111 ms), Moderate Jitter (\'+-333 ms), and Large Jitter (\'+-500 ms). \
 Preprocessing codes call Fieldtrip toolbox \
 \
 There are two main codes: 1. MAIN_preProcessingAll for pre processing the EEG data. 2. MAIN_Analysis_Entrainment that calls analysis functions for 1. ERP analysis; 2. Frequency analysis; 3. Inactive mode; 4. Behavior-EEG phase coupling; 5. Temporal Response Function (TRF) modeling; 6. Correlations between EEG and clinical information. \
