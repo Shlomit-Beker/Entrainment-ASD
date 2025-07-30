@@ -7,7 +7,7 @@ This repository contains MATLAB code for preprocessing and analyzing EEG and beh
 ## Structure
 
 - `preprocessing/`: Preprocessing script (`Preprocess_EEG_All.m`) for EEG data.
-- `analysis/`: Scripts for ERP, frequency analysis, phase-behavior coupling, and EEG-clinical correlations.
+- `analysis/`: Scripts for ERP, frequency analysis, phase-behavior coupling, TRF models, and EEG-clinical correlations.
 - `params/`: Parameter definition files for different components.
 - `triggers/`: Trigger extraction scripts.
 - `layout/`: EEG layout file (`64_lay.mat`).
