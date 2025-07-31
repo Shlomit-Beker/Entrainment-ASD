@@ -2,7 +2,7 @@
 # ASD Entrainment Analysis Code
 
 ## Overview
-This repository contains MATLAB code for preprocessing and analyzing EEG and behavioral data from a study on cortical entrainment in children with Autism Spectrum Disorder (ASD) and typically developing (TD) peers.
+This repository contains MATLAB code for preprocessing and analyzing EEG and behavioral data from a study on cortical entrainment in children with Autism Spectrum Disorder (ASD) and typically developing (TD) peers. The codes were used for the study published in: "Not Just Noise: Impaired Oscillatory Entrainment Reflects Reduced Temporal Flexibility in Autism". doi: https://doi.org/10.1101/2025.07.02.662876
 
 ## Structure
 
