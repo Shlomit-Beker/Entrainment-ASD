@@ -26,5 +26,5 @@ This repository contains MATLAB code for preprocessing and analyzing EEG and beh
 
 ## Dependencies
 
-- [FieldTrip toolbox](https://www.fieldtriptoolbox.org/) (required for all analyses)
+- [FieldTrip toolbox](https://www.fieldtriptoolbox.org/) (required for all preprocessing analyses)
 
